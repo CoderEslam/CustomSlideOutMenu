@@ -11,8 +11,9 @@
 		AA7BCC922AB0F49B00D2911F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7BCC912AB0F49B00D2911F /* ContentView.swift */; };
 		AA7BCC942AB0F49C00D2911F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7BCC932AB0F49C00D2911F /* Assets.xcassets */; };
 		AA7BCC972AB0F49C00D2911F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7BCC962AB0F49C00D2911F /* Preview Assets.xcassets */; };
-		AA7BCC992AB0F49C00D2911F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7BCC982AB0F49C00D2911F /* Persistence.swift */; };
 		AA7BCC9C2AB0F49C00D2911F /* CustomSlideOutMenu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA7BCC9A2AB0F49C00D2911F /* CustomSlideOutMenu.xcdatamodeld */; };
+		AA7BCCA32AB0F83000D2911F /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7BCCA22AB0F83000D2911F /* TabButton.swift */; };
+		AA7BCCA52AB0FA5200D2911F /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7BCCA42AB0FA5200D2911F /* CustomCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +22,9 @@
 		AA7BCC912AB0F49B00D2911F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA7BCC932AB0F49C00D2911F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA7BCC962AB0F49C00D2911F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AA7BCC982AB0F49C00D2911F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AA7BCC9B2AB0F49C00D2911F /* CustomSlideOutMenu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomSlideOutMenu.xcdatamodel; sourceTree = "<group>"; };
+		AA7BCCA22AB0F83000D2911F /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		AA7BCCA42AB0FA5200D2911F /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +59,11 @@
 			children = (
 				AA7BCC8F2AB0F49B00D2911F /* CustomSlideOutMenuApp.swift */,
 				AA7BCC912AB0F49B00D2911F /* ContentView.swift */,
+				AA7BCCA22AB0F83000D2911F /* TabButton.swift */,
 				AA7BCC932AB0F49C00D2911F /* Assets.xcassets */,
-				AA7BCC982AB0F49C00D2911F /* Persistence.swift */,
 				AA7BCC9A2AB0F49C00D2911F /* CustomSlideOutMenu.xcdatamodeld */,
 				AA7BCC952AB0F49C00D2911F /* Preview Content */,
+				AA7BCCA42AB0FA5200D2911F /* CustomCorners.swift */,
 			);
 			path = CustomSlideOutMenu;
 			sourceTree = "<group>";
@@ -144,9 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA7BCC9C2AB0F49C00D2911F /* CustomSlideOutMenu.xcdatamodeld in Sources */,
-				AA7BCC992AB0F49C00D2911F /* Persistence.swift in Sources */,
+				AA7BCCA32AB0F83000D2911F /* TabButton.swift in Sources */,
 				AA7BCC922AB0F49B00D2911F /* ContentView.swift in Sources */,
 				AA7BCC902AB0F49B00D2911F /* CustomSlideOutMenuApp.swift in Sources */,
+				AA7BCCA52AB0FA5200D2911F /* CustomCorners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
