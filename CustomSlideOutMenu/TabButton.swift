@@ -13,6 +13,7 @@ struct TabButton: View {
     var title :String
     
     @Binding var selectedTab :String
+    @Binding var showMenu : Bool 
     var animation :Namespace.ID
     
     var body: some View {
@@ -21,6 +22,7 @@ struct TabButton: View {
             
             withAnimation(.spring()){
                 selectedTab = title
+                showMenu.toggle()
             }
             
         }label: {
